@@ -1,0 +1,85 @@
+body{
+    font-family: 'Happy Monkey', cursive;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    background: linear-gradient(#a2d2ff,#efb0c9) ;
+    color: white;
+}
+
+h1,h2,h3,h4{
+    text-shadow: 0 0 1px black;
+}
+
+#image{
+    border-radius: 50%;
+    width: 200px;
+    border: 6px solid #efb0c9;
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bday-age{
+    background-color: #efb0c9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.gift-section{
+    margin-top: 50px;
+}
+
+.gift-title{
+    margin-bottom: 5px;
+}
+.gift-hint{
+    margin-top: 0;
+}
+
+#bday-date{
+    margin: 0;
+    background-color: #efb0c9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.gift-img{
+    width: 450px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-image:url("gift-cover.jpg");
+    background-size: cover;
+}
+
+.gift-img:hover{
+    background-image: url("birthday.gif");
+}
+
+.gift-img2{
+    width: 400px;
+    height: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid white;
+    border-radius: 10px;
+    background-image:url("gift-cover.jpg");
+    background-size: cover;
+}
+
+.gift-img2:hover{
+    background-image: url("rara.gif");
+}
+
+#gift-oneword:hover{
+    background-image: url("erripappa.gif");
+}
+
